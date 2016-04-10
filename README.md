@@ -25,3 +25,7 @@ workon instahouse
 
 pip install django
 
+
+#install react
+
+pip install react
