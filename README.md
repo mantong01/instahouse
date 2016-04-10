@@ -29,3 +29,9 @@ pip install django
 #install react
 
 pip install react
+cd instahouse/instahouse/basic_rendering
+pip install -r requirements.txt
+npm install
+node render_server.js
+python example.py
+
