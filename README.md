@@ -32,3 +32,5 @@ npm install
 node render_server.js
 python example.py
 
+# beautiful soup needed for redfin parser
+pip install beautifulsoup
