@@ -1,0 +1,93 @@
+Models
+
+NOTE - get legel approval eventually
+
+
+MLS number
+
+
+
+User
+	- id
+	- first name
+	- last name
+	- email
+	- (o)(f) address
+	- (o) phone
+
+Buyer
+	- id
+	- first name
+	- last name
+	- (f) address
+	- phone
+	- fax
+	- status
+
+Address
+	- id
+	- house number
+	- street name
+	- apt number
+	- city
+	- county
+	- zip code
+	- state
+	- country
+
+Seller
+	- id
+	- first name
+	- last name
+	- (f) address
+	- phone
+	- fax
+
+Property
+	- parcel number (text)
+	- lot
+	- block
+	- addition
+	- city
+	- county
+	- (f) address
+	- fixtures excluded
+	- is subject to lease
+	- future description
+
+PropertyContition (TBD)
+	- is brand new
+	- list of work that seller needs to perform before closing
+	- used as storage before
+	- instances of mine subsidences on the property
+	- 
+
+Sales Price
+	- price
+	- finance options:
+		* 3rd party
+		* seller finance
+		* no financing
+	- loan amount
+	- Earnest money amount
+	- Earnest money due
+
+Escrow 
+	- name
+	- address
+
+Inspetion 
+	- video scope?
+	- open doors?
+
+Loan agent
+
+Contenginece 
+	- Finance
+	- Inspection
+
+
+
+
+
+
