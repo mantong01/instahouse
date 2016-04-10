@@ -9,8 +9,6 @@ Instahouse.org
 sudo easy_install pip
 pip install virtualenv
 pip install virtualenvwrapper
-brew install mysql
-
 
 export WORKON_HOME=~/Envs
 mkdir -p $WORKON_HOME
@@ -25,17 +23,11 @@ mkvirtualenv instahouse
 workon instahouse
 
 # install python dependencies
-pip install django
-pip install mysql-python
-
-
-
-
-#install react
-
-pip install react
-cd instahouse/instahouse/basic_rendering
 pip install -r requirements.txt
+
+
+#build react
+cd instahouse/instahouse/basic_rendering
 npm install
 node render_server.js
 python example.py
