@@ -4,11 +4,13 @@ Instahouse.org
 
 
 
-INSTALLATION
+# install packages
 
 sudo easy_install pip
 pip install virtualenv
 pip install virtualenvwrapper
+brew install mysql
+
 
 export WORKON_HOME=~/Envs
 mkdir -p $WORKON_HOME
@@ -22,6 +24,9 @@ mkvirtualenv instahouse
 # activate virtualenv
 workon instahouse
 
-
+# install python dependencies
 pip install django
+pip install mysql-python
+
+
 
